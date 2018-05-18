@@ -1,0 +1,101 @@
+body {
+    background-image: url(../images/world-war-2-wallpaper-high-quality-On-Wallpaper-1080p-HD.jpg);
+    
+    background-image: url(../images/17759_world_war_1.jpg);
+    background-image: url(../images/maxresdefault.jpg);
+    background-image: url(../images/kamikaze-planes-and-soldier-world-war-2-vector-background.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.quiz {
+    z-index: 2;
+}
+
+.hide {
+    display: none;
+}
+
+.box {
+    position: relative;
+    top: 50px;
+    background-color: black;
+    color: #33ccff;
+    padding: 60px;
+    border-radius: 25px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.displayQuestion {
+    height: 300px;
+    margin-bottom: 60px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+#question {
+    font-size: 35px;
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+#a, #b, #c, #d {
+    margin: -1px;
+    padding: 15px;
+    padding-left: 40px;
+    border: solid 2px white;
+    border-radius: 25px;
+    height: 60px;
+}
+
+.answers {
+    border: solid 2px white;
+    border-radius: 25px;
+    margin: -1px;
+}
+
+.inCorrect {
+    background-color: #cc0000;
+    color: black;
+    font-size: 20px;
+}
+
+.correctAnswer {
+    background-color: #33ccff;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.countDown {
+    position: absolute;
+    font-size: 100px;
+    color: black;
+    top: 30px;
+    left: 80px;
+}
+
+button {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.buffer {
+    height: 150px;
+}
+
+.ww2 {
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 4px;
+    font-size: 150px;
+    margin-bottom: 350px;
+}
+
