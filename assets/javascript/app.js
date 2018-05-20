@@ -25,7 +25,7 @@ window.onload = function () {
             b: "1946",
             c: "1948",
             d: "1941",
-            answer: "d",
+            answer: "a",
         }],
         round1: [{
             question: "What two countries were already involved in a military conflict before the beginning of World War II?",
